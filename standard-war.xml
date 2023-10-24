@@ -25,15 +25,14 @@
  <build>
   <plugins>
    <plugin>
-    <groupId>es.com.foskito1.jarToWar</groupId>
-    <artifactId>maven-ear-plugin</artifactId>
-    <version>2.3.2</version>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.3</version>
     <configuration>
      <modules>
       <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
        <artifactId>ocenman-pom</artifactId>
-       <bundleDir>lib</bundleDir>
       </jarModule>
       <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
