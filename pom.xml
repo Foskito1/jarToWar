@@ -9,7 +9,7 @@
  <modules>
   <module>ocenman</module>
   <module>ocenmam</module>
-  <module>ocenope</module>
+  <module>ocenopen</module>
   <module>standard-war</module>
  </modules>
  <dependencies>
