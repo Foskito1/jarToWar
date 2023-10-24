@@ -33,6 +33,7 @@
     <artifactId>maven-war-plugin</artifactId>
     <version>2.3</version>
     <configuration>
+     <failOnMissingWebXml>false</failOnMissingWebXml>
      <modules>
       <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
