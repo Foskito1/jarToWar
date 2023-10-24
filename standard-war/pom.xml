@@ -12,12 +12,18 @@
  <dependencies>
   <dependency>
    <groupId>es.com.foskito1.jarToWar</groupId>
-   <artifactId>simple-jar-child</artifactId>
+   <artifactId>ocenman</artifactId>
    <version>0.0.1-SNAPSHOT</version>
   </dependency>
   <dependency>
    <groupId>es.com.foskito1.jarToWar</groupId>
-   <artifactId>simple-war-child</artifactId>
+   <artifactId>ocenope</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+   <type>war</type>
+  </dependency>
+  <dependency>
+   <groupId>es.com.foskito1.jarToWar</groupId>
+   <artifactId>ocenmam</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <type>war</type>
   </dependency>
@@ -32,15 +38,15 @@
      <modules>
       <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
-       <artifactId>ocenman-pom</artifactId>
+       <artifactId>ocenman</artifactId>
       </jarModule>
       <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
-       <artifactId>ocenmam-pom</artifactId>
+       <artifactId>ocenmam</artifactId>
       </jarModule>
 	  <jarModule>
        <groupId>es.com.foskito1.jarToWar</groupId>
-       <artifactId>ocenopen-pom</artifactId>
+       <artifactId>ocenopen</artifactId>
       </jarModule>
      </modules>
     </configuration>
