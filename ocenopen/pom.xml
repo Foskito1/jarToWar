@@ -7,4 +7,11 @@
   <groupId>es.com.foskito1.jarToWar</groupId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
+ <dependency>
+         <groupId>ocenopen-jar</groupId>
+         <artifactId>ocenopen-jar</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}\ocenopen.jar</systemPath>
+  </dependency>
 </project>

@@ -7,4 +7,11 @@
   <groupId>es.com.foskito1.jarToWar</groupId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
+ <dependency>
+         <groupId>ocenmam-jar</groupId>
+         <artifactId>ocenmam-jar</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}\ocenmam.jar</systemPath>
+  </dependency>
 </project>
