@@ -7,9 +7,9 @@
  <name>JarToWar</name>
  <packaging>pom</packaging>
  <modules>
-  <module>ocenman-pom</module>
-  <module>ocenmam-pom</module>
-  <module>ocenope-pom</module>
+  <module>ocenman</module>
+  <module>ocenmam</module>
+  <module>ocenope</module>
   <module>standard-war</module>
  </modules>
  <dependencies>
@@ -20,4 +20,5 @@
    <scope>test</scope>
   </dependency>
  </dependencies>
+ 
 </project>
