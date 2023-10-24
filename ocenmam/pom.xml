@@ -13,7 +13,6 @@
          <artifactId>ocenmam-jar</artifactId>
          <scope>system</scope>
          <version>1.0</version>
-         <systemPath>${basedir}\ocenmam.jar</systemPath>
   </dependency>
   </dependencies>
 </project>

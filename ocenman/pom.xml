@@ -10,10 +10,9 @@
  <dependencies>
  <dependency>
          <groupId>ocenman-jar</groupId>
-         <artifactId>ocenman-jar</artifactId>
+         <artifactId>ocenman</artifactId>
          <scope>system</scope>
          <version>1.0</version>
-         <systemPath>${basedir}\ocenman.jar</systemPath>
   </dependency>
  </dependencies>
 </project>
