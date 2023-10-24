@@ -17,15 +17,13 @@
   </dependency>
   <dependency>
    <groupId>es.com.foskito1.jarToWar</groupId>
-   <artifactId>ocenope</artifactId>
+   <artifactId>ocenopen</artifactId>
    <version>0.0.1-SNAPSHOT</version>
-   <type>war</type>
   </dependency>
   <dependency>
    <groupId>es.com.foskito1.jarToWar</groupId>
    <artifactId>ocenmam</artifactId>
    <version>0.0.1-SNAPSHOT</version>
-   <type>war</type>
   </dependency>
  </dependencies>
  <build>
