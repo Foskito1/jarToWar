@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+ <artifactId>standard-war</artifactId>
+ <name>Standard War File</name>
+ <packaging>war</packaging>
+ <parent>
+  <artifactId>jarToWar</artifactId>
+  <groupId>es.com.foskito1.jarToWar</groupId>
+  <version>0.0.1-SNAPSHOT</version>
+ </parent>
+ <dependencies>
+  <dependency>
+   <groupId>es.com.foskito1.jarToWar</groupId>
+   <artifactId>simple-jar-child</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  <dependency>
+   <groupId>es.com.foskito1.jarToWar</groupId>
+   <artifactId>simple-war-child</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+   <type>war</type>
+  </dependency>
+ </dependencies>
+ <build>
+  <plugins>
+   <plugin>
+    <groupId>es.com.foskito1.jarToWar</groupId>
+    <artifactId>maven-ear-plugin</artifactId>
+    <version>2.3.2</version>
+    <configuration>
+     <modules>
+      <jarModule>
+       <groupId>es.com.foskito1.jarToWar</groupId>
+       <artifactId>ocenman-pom</artifactId>
+       <bundleDir>lib</bundleDir>
+      </jarModule>
+      <jarModule>
+       <groupId>es.com.foskito1.jarToWar</groupId>
+       <artifactId>ocenmam-pom</artifactId>
+      </jarModule>
+	  <jarModule>
+       <groupId>es.com.foskito1.jarToWar</groupId>
+       <artifactId>ocenopen-pom</artifactId>
+      </jarModule>
+     </modules>
+    </configuration>
+   </plugin>
+  </plugins>
+ </build>
+</project>
