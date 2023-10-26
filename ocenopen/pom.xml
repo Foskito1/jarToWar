@@ -13,6 +13,7 @@
          <artifactId>ocenopen-jar</artifactId>
          <scope>system</scope>
          <version>1.0</version>
+         <systemPath>${project.basedir}/ocenopen/ocenopen.jar</systemPath>
   </dependency>
   </dependencies>
 </project>
